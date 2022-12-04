@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     int binary[100],i,a;
