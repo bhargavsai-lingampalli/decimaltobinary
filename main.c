@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int binary[100],i,a;
+    int binary[100],i,num;
     printf("Enter Number: ");
-    scanf("%d",&a);
-    for(i=0; a>0; i++)
+    scanf("%d",&num);
+    for(i=0; num>0; i++)
     {
         binary[i]=a%2;
-        a/=2;
+        num/=2;
     }
-    printf("\nBinary: ");
+    printf("Binary: ");
     for(i=i-1; i>=0; i--)
     {
         printf("%d",binary[i]);
