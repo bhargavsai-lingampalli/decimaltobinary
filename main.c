@@ -6,7 +6,7 @@ int main()
     scanf("%d",&num);
     for(i=0; num>0; i++)
     {
-        binary[i]=a%2;
+        binary[i]=num%2;
         num/=2;
     }
     printf("Binary: ");
